@@ -1,0 +1,88 @@
+.header{
+  background-color: rgb(255, 255, 255) !important;
+  border-bottom: solid 3px rgb(83, 147, 210) !important;
+}
+.carousel{
+  background-color: rgb(137, 203, 231);
+  height: 75vh;
+}
+.carourselbutton{
+  background-color: rgb(106, 106, 178);
+  border: 0;
+}
+.link{
+   position: relative;
+  display: inline-block;
+}
+.cartspan{
+  position: absolute;
+  top: 3px;
+  right: -6px;
+  background: rgb(83, 147, 210);
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}.first{
+  background: rgb(163, 196, 163);
+}.secound{
+  background: rgb(100, 137, 102);
+}.third{
+  background: rgb(114, 180, 132);
+}.fourth{
+  background: rgb(139, 164, 143);
+}.imgdiscound{
+  height: 280px;
+}.discountcard{
+ transition: transform 0.9s ;
+}.discountcard:hover{
+  transform: scale(1.05);
+  border-bottom: solid 3px rgb(83, 147, 210);
+}.FaStar{
+  color: rgb(216, 216, 39);
+  
+}.discountcard .CiHeart1 {
+  transition: 0.9s; 
+}.discountcard:hover .CiHeart1 {
+  opacity: 1 !important;
+}.discountcard button {
+  transition: 1.1s; 
+  height: 50px;
+  width: 50px;
+}.discountcard button:hover {
+  background-color: #0dcaf0 !important;
+}.Header{
+  color:rgb(83, 147, 210) !important;
+}.hidden{
+  display: none;
+}.shown{
+  display: block;
+}/* App.css */
+
+html, body, #root {
+  height: 100%;       /* Full height for the page */
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  /* full viewport height */
+}
+
+.content-wrapper {
+  flex: 1;            /* expand to fill space */
+}
+
+/* Example footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}

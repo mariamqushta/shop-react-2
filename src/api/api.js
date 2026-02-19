@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Use environment variable for API URL
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:5000/",
+  baseURL: https://shop-nodejs-2.vercel.app/,
   withCredentials: true, // if your backend uses cookies
 });
 
@@ -16,3 +16,4 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+

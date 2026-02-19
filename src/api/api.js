@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://shop-nodejs-2.vercel.app/v"
+  baseURL: "https://shop-nodejs-2.vercel.app/"
 });
 
 api.interceptors.request.use((config) => {
@@ -13,3 +13,4 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+
